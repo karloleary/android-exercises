@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="com.karloleary.userinput.QuizActivity">
+
+        <TextView
+            style="@style/quiz_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_username" />
+
+        <EditText
+            android:id="@+id/quiz_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name" />
+
+        <TextView
+            style="@style/quiz_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_questions" />
+
+        <CheckBox
+            android:id="@+id/quiz_question1_checkbox"
+            style="@style/quiz_question"
+            android:text="@string/quiz_question1" />
+
+        <CheckBox
+            android:id="@+id/quiz_question2_checkbox"
+            style="@style/quiz_question"
+            android:text="@string/quiz_question2" />
+
+        <CheckBox
+            android:id="@+id/quiz_question3_checkbox"
+            style="@style/quiz_question"
+            android:text="@string/quiz_question3" />
+
+        <CheckBox
+            android:id="@+id/quiz_question4_checkbox"
+            style="@style/quiz_question"
+            android:text="@string/quiz_question4" />
+
+        <CheckBox
+            android:id="@+id/quiz_question5_checkbox"
+            style="@style/quiz_question"
+            android:text="@string/quiz_question5" />
+
+        <TextView
+            android:id="@+id/quiz_results"
+            style="@style/quiz_results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/quiz_button"
+                android:onClick="results"
+                android:text="@string/quiz_results_button" />
+
+            <Button
+                style="@style/quiz_button"
+                android:onClick="reset"
+                android:text="@string/quiz_reset_button" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

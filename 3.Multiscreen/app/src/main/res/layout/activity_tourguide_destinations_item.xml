@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#333333"
+    android:paddingBottom="1dp"
+    android:layout_height="120dp" >
+
+    <ImageView
+        android:id="@+id/destination_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tourguide_cork" />
+
+    <TextView
+        android:id="@+id/destination_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#7f000000"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Destination Title"
+        android:textColor="@android:color/background_light"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground" />
+
+</RelativeLayout>

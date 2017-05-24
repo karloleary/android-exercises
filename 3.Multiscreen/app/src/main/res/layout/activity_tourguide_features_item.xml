@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="#eee"
+        android:paddingBottom="1dp" >
+
+        <ImageView
+            android:id="@+id/feature_image"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginRight="8dp"
+            android:background="#335577"
+            android:maxLines="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tourguide_cork_englishmarket"/>
+
+        <TextView
+            android:id="@+id/feature_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/feature_image"
+            android:text="Feature Title"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/feature_bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/feature_title"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/feature_image"
+            android:maxLines="1"
+            android:text="Feature Bio"
+            android:textColor="@color/colorAccent"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    </RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">User Input</string>
+    <string name="yes">Jai bitte</string>
+    <string name="no">Nein Danke</string>
+</resources>

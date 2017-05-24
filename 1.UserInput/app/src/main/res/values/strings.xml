@@ -1,0 +1,33 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">User Input</string>
+    <string name="title_activity_logger">LoggerActivity</string>
+
+    <string name="yes">Oh yes please</string>
+    <string name="no">Yuk</string>
+    <string name="summary">
+        Name:           <xliff:g id="name">%s</xliff:g>\n
+        Quantity:       <xliff:g id="count">%d</xliff:g>\n
+        With Cream:     <xliff:g id="cream">%s</xliff:g>\n
+        With Chocolate: <xliff:g id="chocolate">%s</xliff:g>\n
+        Total:          <xliff:g id="price">%d</xliff:g>\n
+        Thank you!!!"
+    </string>
+    <string name="title_activity_quiz">Quiz</string>
+
+
+    <!-- Quiz -->
+    <string name="quiz_username">Enter your name</string>
+    <string name="quiz_questions">Answer the questions</string>
+    <string name="quiz_question1">Are you male?</string>
+    <string name="quiz_question2">Are you tall?</string>
+    <string name="quiz_question3">Are you over 40?</string>
+    <string name="quiz_question4">Are you married?</string>
+    <string name="quiz_question5">Are you alive?</string>
+    <string name="quiz_results">
+        <xliff:g id="name">%s</xliff:g>, you scored
+        <xliff:g id="score">%d</xliff:g> out of <xliff:g id="total">%d</xliff:g>\n
+        Good Work!!!
+    </string>
+    <string name="quiz_results_button">Results</string>
+    <string name="quiz_reset_button">Reset</string>
+</resources>
